@@ -14,4 +14,4 @@ public class Ch03_compare {
 		
 		System.out.println("num1과 num2가 같지 않은가? "+ (num1!=num2));
 	}
-}
+} 

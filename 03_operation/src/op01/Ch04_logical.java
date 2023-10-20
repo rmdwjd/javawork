@@ -20,6 +20,10 @@ public class Ch04_logical {
 		re1 = num1 > num2 || num1 < num2;
 		System.out.println(re1);  //true
 		
+		char ch1 = 'A';
+		System.out.println("ch1 : "+ ch1);
+		System.out.println("소문자인가: "+ (ch1>='a'&& ch1<='z'));
+		System.out.println("대문자인가? "+ (ch1>='A'&&ch1<='Z'));
 	}
 		
 }
