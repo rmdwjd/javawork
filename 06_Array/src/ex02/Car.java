@@ -1,8 +1,8 @@
-package objCar05;
+package ex02;
 
 public class Car {
 	//필드
-	private String company = "현대자동차";
+	public String company = "현대자동차";
 	String model = "그랜져";
 	String color = "검정";
 	final int MAX_SPEED = 350;

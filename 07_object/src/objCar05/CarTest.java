@@ -6,13 +6,13 @@ public class CarTest {
 		Car myCar = new Car();
 		Car fCar = new Car();
 		
-		fCar.company = "기아자동차";
+		fCar.setCompany("기아자동차");
 		fCar.model="k9";
 		fCar.color="흰색";
 //		fCar.MAX_SPEED = 250; 상수로 설정해서 바꿀 수 없다.
 		
 		System.out.println("--------내차 정보-----------");
-		System.out.println("회사 : "+ myCar.company);
+		System.out.println("회사 : "+ myCar.getCompany());
 		System.out.println("모델 : "+ myCar.model);
 		System.out.println("컬러 : "+ myCar.color);
 		System.out.println("최고속도 : "+ myCar.MAX_SPEED);
@@ -20,7 +20,7 @@ public class CarTest {
 		System.out.println();
 		
 		System.out.println("-------친구차 정보---------");
-		System.out.println("회사 : "+fCar.company);
+		System.out.println("회사 : "+fCar.getCompany());
 		System.out.println("모델 : "+fCar.model);
 		System.out.println("컬러 : "+fCar.color);
 		System.out.println("최고속도 : "+fCar.MAX_SPEED);
