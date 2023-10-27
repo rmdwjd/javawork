@@ -13,16 +13,17 @@ class Phone {
 	}
 	public void volume(int x) {
 		this.volume=x;
-		System.out.println("볼륨 설정 : "+x);
+		System.out.println("볼륨 설정 : "+this.volume);
 	}
 	
 }
 
 class SmartPhone extends Phone {
 	private String search;
+
 	public void search(String search) {
 		this.search = search;
-		System.out.println(search+"를 검색합니다.");
+		System.out.println(this.search+"를 검색합니다.");
 	}
 }
 
