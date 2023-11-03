@@ -37,9 +37,9 @@ public class PersonTest {
 			System.out.println("a b 같다");
 		else
 			System.out.println("a b 다르다");
-		if(a.equals(b))
-			System.out.println("a  b 다르다");
-		
+		/*	if(a.equals(b))
+				System.out.println("a  b 다르다");
+			*/
 		
 		String x="안녕";
 		String y="안녕";
