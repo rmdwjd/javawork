@@ -9,6 +9,7 @@ public class Grade extends Student{
 	public Grade() {}
 	
 	public Grade(String id, String name, String password, int age, int kor, int eng, int com, int math) {
+		super(id, name, password, age);
 		this.kor = kor;
 		this.eng = eng;
 		this.com = com;
@@ -51,6 +52,11 @@ public class Grade extends Student{
 	}
 	public double getAvg() {
 		return (this.kor+this.eng+this.com+this.math)/4.0;
+	}
+	
+	@Override
+	public String toString() {
+		return getName() +" [id=" + getId() + ", password=" + getPassword() + ", age=" + getAge() + "]";
 	}
 	
 }
