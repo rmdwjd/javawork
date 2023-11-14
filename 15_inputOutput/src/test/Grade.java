@@ -51,7 +51,7 @@ public class Grade extends Student{
 		return (this.kor+this.eng+this.com+this.math);
 	}
 	public double getAvg() {
-		return (this.kor+this.eng+this.com+this.math)/4.0;
+		return (this.kor+this.eng+this.com+this.math)/4.00;
 	}
 	
 	@Override

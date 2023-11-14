@@ -10,9 +10,9 @@ public class GradeTest {
 		ArrayList<Grade> glist = new ArrayList<Grade>();
 		int gListIndex = 0;
 		Grade grade = new Grade();
-		Grade g1 = new Grade("aa", "최", "1234", 11, 22, 33, 44, 55);
-		Grade g2 = new Grade("bb", "김", "1234", 11, 22, 33, 44, 55);
-		Grade g3 = new Grade("cc", "이", "1234", 11, 22, 33, 44, 55);
+		Grade g1 = new Grade("aa", "최", "1234", 20, 80, 33, 70, 80);
+		Grade g2 = new Grade("bb", "김", "1234", 50, 22, 33, 50, 100);
+		Grade g3 = new Grade("cc", "이", "1234", 70, 22, 33, 90, 10);
 		glist.add(g1);
 		glist.add(g2);
 		glist.add(g3);
@@ -68,8 +68,11 @@ public class GradeTest {
 							gListIndex = i;
 							count = 0;
 							System.out.println("로그인 성공");
-							break ;
+							break ;  
 						}
+					}
+					if(check) {
+						break;
 					}
 					if(count!=0) {
 						System.out.println("아이디 또는 비밀번호가 틀렸습니다.");
