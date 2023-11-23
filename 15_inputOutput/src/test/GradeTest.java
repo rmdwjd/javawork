@@ -98,7 +98,7 @@ public class GradeTest {
 					continue;
 				}
 				System.out.println("합계 : "+glist.get(gListIndex).getTotalScore());
-				System.out.println("평균 : "+glist.get(gListIndex).getAge());
+				System.out.println("평균 : "+glist.get(gListIndex).getAvg());
 		
 			}
 			else if(select==5){
